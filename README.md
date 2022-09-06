@@ -9,10 +9,10 @@ For Texas Hold'em poker, it is important to calculate the probability to win bas
 ## Solution of two players
 
 The game has 4 phases:
-- $S_2$: two private cards are available
-- $S_5$: two private cards and 3 public cards are available
-- $S_6$: two private cards and 4 public cards are available
-- $S_7$: two private cards and 5 public cards are available
+- $S_2$: 2 private cards are available
+- $S_5$: 2 private cards and 3 public cards are available
+- $S_6$: 2 private cards and 4 public cards are available
+- $S_7$: 2 private cards and 5 public cards are available
 
 Denote $p(S)$ as the probability to win given $S$. 
 $$ p = \frac{\# win + 0.5 \# tie}{\# total} $$
