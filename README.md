@@ -14,17 +14,13 @@ The game has 4 phases:
 - $S_6$: 2 private cards and 4 public cards are available
 - $S_7$: 2 private cards and 5 public cards are available
 
-Denote $p(S)$ as the probability to win given $S$. 
-$$ p = \frac{\# win + 0.5 \# tie}{\# total} $$
+Denote $p(S)$ as the probability to win given $S$: 
+$$p = \frac{\# win + 0.5 \# tie}{\# total}$$
 $p(S_5),p(S_6),p(S_7)$ can be obtained by brute force search in real time (about 0.01s). While $p(S_2)$ takes several minutes. However, the distinguishable card types of $S_2$ are small. So we can pre-compute and store them in a table.
 
 ## Solution of multiple players
 
-For multiple players, it is difficult to calculate $p(S_7)$ via brute force search. Instead, this project treats whether to win each opponent as independent events.
-$$ \hat{p}(S_7) = p^{n-1}(S_7) $$
-where $n$ is the number of players. $\hat{p}(S_7)$ is usually smaller than the true probability. This project adjusts the equation to
-$$ \hat{p}(S_7) = p^{(n-1)^{0.85}}(S_7) $$
-Then $p(S_2), p(S_5), p(S_6)$ are calculated based on it.
+For multiple players, it is difficult to calculate $p(S_7)$ via brute force search. Instead, this project treats whether to win each opponent as independent events. Thus $\hat{p}(S_7) = p^{n-1}(S_7)$, where $n$ is the number of players. $\hat{p}(S_7)$ is usually smaller than the true probability. This project adjusts the equation to $\hat{p}(S_7) = p^{(n-1)^{0.85}}(S_7)$. Then $p(S_2), p(S_5), p(S_6)$ are calculated based on it.
 
 ## How to use
 First compile the code
