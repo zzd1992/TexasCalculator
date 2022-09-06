@@ -15,7 +15,7 @@ The game has 4 phases:
 - $S_7$: 2 private cards and 5 public cards are available
 
 Denote $p(S)$ as the probability to win given $S$: 
-$$p = \frac{\# win + 0.5 \# tie}{\# total}$$
+$$p = \frac{win + 0.5 \times tie}{total}$$
 $p(S_5),p(S_6),p(S_7)$ can be obtained by brute force search in real time (about 0.01s). While $p(S_2)$ takes several minutes. However, the distinguishable card types of $S_2$ are small. So we can pre-compute and store them in a table.
 
 ## Solution of multiple players
