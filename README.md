@@ -50,5 +50,7 @@ Each card has two chars:
 - the first one for ranks: `{23456789TJQKA}`
 - the second one for suits: `{cdhs}`.
 
+The first two cards are private cards while the others are public cards.
+
 ## Thanks
-This project is built at the top of [PokerHandEvaluator](https://github.com/HenryRLee/PokerHandEvaluator). It provides high performance code for comparing 7 cards.
+This project is built at the top of [PokerHandEvaluator](https://github.com/HenryRLee/PokerHandEvaluator). It provides high performance code for 7 cards ranking 7.
