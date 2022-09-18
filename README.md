@@ -50,4 +50,4 @@ We represent each card with two chars:
 The first two cards are private cards while the others are public cards.
 
 ## Thanks
-This project is built at the top of [PokerHandEvaluator](https://github.com/HenryRLee/PokerHandEvaluator). It provides high performance code for 7 cards ranking 7.
+This project is built at the top of [PokerHandEvaluator](https://github.com/HenryRLee/PokerHandEvaluator). It provides high performance code for 7 cards ranking.
