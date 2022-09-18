@@ -3,7 +3,7 @@ For Texas Hold'em poker, it is important to calculate the probability to win bas
 
 - calculates the **exact** probability of two player game.
 - calculates the **approximated** probability of multiple player game.
-- for any card type, the calculation is done in **real time**.
+- calculates the probability in **real time**.
 
 ## Solution of two players
 The game has 4 phases:
