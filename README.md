@@ -1,10 +1,10 @@
 # Texas Hold'em Poker Calculator
 
-For Texas Hold'em poker, it is important to calculate the probability to win based on the observed cards. This project
+For Texas Hold'em poker, it is important to calculate the probability to win based on observed cards. This project
 
-- Calculates the exact probability of two player game.
-- Calculates the approximated probability of multiple player game.
-- For any card type, the calculation is done in real time.
+- calculates the exact probability of two player game.
+- calculates the approximated probability of multiple player game.
+- for any card type, the calculation is done in real time.
 
 ## Solution of two players
 
