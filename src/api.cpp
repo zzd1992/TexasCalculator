@@ -29,9 +29,4 @@ extern "C"
     {
         return foo->card2id(x);
     }
-
-    void test(char *x)
-    {
-        printf("%s\n", x);
-    }
 }
